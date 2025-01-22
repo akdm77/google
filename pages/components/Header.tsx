@@ -7,7 +7,7 @@ const Header = () => {
   const [menuCirculado, setMenuCirculado] = useState<boolean>(false);
 
   return (
-    <header className="flex w-full items-center pt-9 justify-between ">
+    <header className="flex w-full items-center  justify-between ">
       <section className="flex w-5/6 md:w-full">
         <section className="h-5 w-6  mr-5">
           {menu == true ? (
