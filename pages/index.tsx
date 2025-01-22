@@ -16,7 +16,7 @@ const geistMono = localFont({
 
 export default function Home() {
   const [search, setSearch] = useState<boolean>(true)
-  const [searchValue, setSearchValue] = useState<String>("")
+  const [searchValue, setSearchValue] = useState<string>("")
   
   return (
     <div
@@ -195,7 +195,7 @@ export default function Home() {
                   alt="arrow"
                   className="size-6 "
                 />
-                <input type="text" className=" h-12 w-8/12 p-5 sm:w-10/12 border-none focus:border-none" onChange={(e) => setSearchValue(e.target.value)}/>
+                <input type="text" className=" h-12 w-8/12 p-5 sm:w-10/12 border-none focus:border-none" name={searchValue} onChange={(e) => setSearchValue(e.target.value)}/>
                 <Image
                   src="/google-mic.webp"
                   height={100}
