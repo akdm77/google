@@ -20,7 +20,7 @@ export default function Home() {
  
   return (
     <div
-      className={`${geistSans.variable} ${geistMono.variable}  flex flex-col justify-stretch  items-center bg-white text-black dark:bg-neutral-900 dark:text-white justify-items-center h-screen p-0 pb-20 gap-16 sm:p-0 font-[family-name:var(--font-geist-sans)]`}
+      className={`${geistSans.variable} ${geistMono.variable}  flex flex-col justify-stretch  items-center bg-white text-black dark:bg-neutral-800 dark:text-white justify-items-center h-screen p-0 pb-20 gap-16 sm:p-0 font-[family-name:var(--font-geist-sans)]`}
     >
      <ThemeProvider 
       attribute="class"

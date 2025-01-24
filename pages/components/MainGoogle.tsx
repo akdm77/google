@@ -170,7 +170,7 @@ const MainGoogle = () => {
         {
           search === false
             ?
-            <section className=" fixed top-0 bg-white h-screen w-screen">
+            <section className=" fixed top-0 bg-white dark:bg-neutral-800 h-screen w-screen">
               <section className="flex justify-center items-center">
                 <Image onClick={()=>setSearch(!search)}
                   src="/icons8-back-48.png"
@@ -179,7 +179,7 @@ const MainGoogle = () => {
                   alt="arrow"
                   className="size-6 "
                 />
-                <input type="text" className=" h-12 w-8/12 p-5 sm:w-10/12 border-none focus:border-none" name={searchValue} onChange={(e) => setSearchValue(e.target.value)}/>
+                <input type="text" className="dark:bg-neutral-800 h-12 w-8/12 p-5 sm:w-10/12 border-none focus:border-none" name={searchValue} onChange={(e) => setSearchValue(e.target.value)}/>
                 <Image
                   src="/google-mic.webp"
                   height={100}
@@ -403,7 +403,7 @@ const MainGoogle = () => {
 
             </section>
             :
-            <section></section>
+            <section className="hidden"></section>
         }
       </main>
   )

@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header className="flex w-full items-center  justify-between ">
-      <section className="flex w-5/6 md:w-full">
+      <section className="flex w-5/6  md:w-full">
         <section className="h-5 w-6  mr-5">
           {menu == true ? (
             <section>
@@ -17,9 +17,9 @@ const Header = () => {
               setMenu(!menu);
               
             }}
-            className="h-screen w-screen absolute bottom-0 right-0 overflow-hidden  bg-transparent"
+            className="h-screen w-screen  absolute bottom-0 right-0 overflow-hidden  bg-transparent"
             ></section>
-            <section className="flex flex-col justify-between absolute top-0 p-0 m-0  size-full  md:h-[90%]  sm:w-6/12 xl:h-5/6 xl:w-4/12 sm:rounded-3xl 2xl:h-auto sm:right-5 sm:top-16 lg:h-5/6 bg-gray-200">
+            <section className="flex flex-col dark:bg-neutral-800  justify-between absolute top-0 p-0 m-0  size-full  md:h-[90%]  sm:w-6/12 xl:h-5/6 xl:w-4/12 sm:rounded-3xl 2xl:h-auto sm:right-5 sm:top-16 lg:h-5/6 bg-gray-200">
               <section>
                 <header className="sm:h-1/6 ">
                   <section className="flex justify-between text-2xl sm:h-1/2">
@@ -52,11 +52,11 @@ const Header = () => {
                 </section>
                 <main className="">
                   <section>
-                    <h3 className="ml-7 mb-2 text-gray-800 text-sm font-light">
+                    <h3 className="ml-7 mb-2 dark:text-white text-gray-800 text-sm font-light">
                       Mais de Pesquisas Google
                     </h3>
-                    <section className="flex flex-col items-center">
-                      <section className="flex justify-between shadow items-center w-11/12 p-4 mt-1 rounded-t-3xl rounded-b-md bg-white">
+                    <section className="flex  flex-col items-center">
+                      <section className="flex dark:bg-neutral-900 justify-between shadow items-center w-11/12 p-4 mt-1 rounded-t-3xl rounded-b-md bg-white">
                         <section className="flex items-center">
                           <Image
                             src="/SafeSearch.jpeg"
@@ -71,7 +71,7 @@ const Header = () => {
 
                         <p className="text-xs font-light">Filtro ativado</p>
                       </section>
-                      <section className="flex justify-between shadow-sm items-center w-11/12 p-4 mt-[1px] rounded-t-md rounded-b-md bg-white">
+                      <section className="flex dark:bg-neutral-900 justify-between shadow-sm items-center w-11/12 p-4 mt-[1px] rounded-t-md rounded-b-md bg-white">
                         <section className="flex ">
                           <Image
                             src="/globe.svg"
@@ -86,7 +86,7 @@ const Header = () => {
 
                         <p className="text-xs font-light">Portugues(Brasil)</p>
                       </section>
-                      <section className="flex justify-between shadow-sm items-center w-11/12 p-4 mt-[1px] rounded-t-md rounded-b-md bg-white">
+                      <section className="flex dark:bg-neutral-900 justify-between shadow-sm items-center w-11/12 p-4 mt-[1px] rounded-t-md rounded-b-md bg-white">
                         <section className="flex">
                           <Image
                             src="/R.png"
@@ -103,8 +103,8 @@ const Header = () => {
                           Padrao do Dispositivo
                         </p>
                       </section>
-                      <section className="flex justify-between items-center w-11/12  bg-gray-200">
-                        <section className="flex justify-end items-center w-1/2  p-2 md:p-3 lg:py-6 xl:py-3 mr-[1px] mt-[1px] rounded-r-md rounded-b-3xl rounded-tl-md bg-white">
+                      <section className="flex dark:bg-neutral-800 justify-between items-center w-11/12  bg-gray-200">
+                        <section className="flex dark:bg-neutral-900 justify-end items-center w-1/2  p-2 md:p-3 lg:py-6 xl:py-3 mr-[1px] mt-[1px] rounded-r-md rounded-b-3xl rounded-tl-md bg-white">
                           <Image
                             src="/icons8-setting-50.png"
                             width={60}
@@ -117,7 +117,7 @@ const Header = () => {
                             Mais configuracoes
                           </h2>
                         </section>
-                        <section className="flex w-1/2 p-5 sm:p-6 mt-[1px] justify-start rounded-l-md rounded-b-3xl rounded-tr-md bg-white">
+                        <section className="flex dark:bg-neutral-900 w-1/2 p-5 sm:p-6 mt-[1px] justify-start rounded-l-md rounded-b-3xl rounded-tr-md bg-white">
                           <Image
                             src="/icons8-help-50.png"
                             width={60}
