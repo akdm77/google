@@ -2,7 +2,8 @@ import React from 'react'
 
 const FooterGoogle = () => {
   return (
-    <footer className="flex flex-col  p-1  w-full h-30  dark:text-white dark:bg-neutral-900 text-gray-700 ">
+    <footer className="flex flex-col  p-1 bg-slate-1 
+    00  w-full h-30  dark:text-white dark:bg-neutral-800 text-gray-700 ">
     <h3 className="p-3 ">Brasil</h3>
     <hr className="m-0.5
     "/>

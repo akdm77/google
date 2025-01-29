@@ -9,7 +9,7 @@ const MainGoogle = () => {
     const [searchValue, setSearchValue] = useState<string>("")
   return (
     
-    <main className="flex flex-col h-6/6 w-full gap-8 row-start-2 items-center sm:items-center sm:justify-center  ">
+    <main className="flex flex-col h-6/6 w-full dark:bg-neutral-700 gap-8 row-start-2 items-center sm:items-center sm:justify-center  ">
 
         <Image
           src="/googlelogo.png"
@@ -74,8 +74,8 @@ const MainGoogle = () => {
                   className="h-5 mt-4"
                 />
                 <section>
-                  <h3 className=" mt-1">salsicha</h3>
-                  <p className="  text-sm text-gray-600 ">carne</p>
+                  <h3 className=" mt-1">lorem</h3>
+                  <p className="  text-sm text-gray-600 ">Lorem ipsum dolor sit amet, consectetur adip</p>
                 </section>
 
               </Link>
@@ -107,7 +107,7 @@ const MainGoogle = () => {
                 />
                 <h3 className=" ">
 
-                  enquetes a fazenda 16
+                 Lorem, ipsum dolor sit amet consectetur adipisici
                 </h3></Link>
             </li>
             <hr />
@@ -134,7 +134,7 @@ const MainGoogle = () => {
                   alt="arrow"
                   className="h-5 mt-4"
                 />
-                <h3 className="">creatina soldiers policia civil</h3></Link>
+                <h3 className="">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3></Link>
 
             </li>
             <hr />
@@ -210,8 +210,8 @@ const MainGoogle = () => {
                   className="h-5 mt-1"
                 />
                 <section>
-                  <h3 className=" mt-1">salsicha</h3>
-                  <p className="  text-sm text-gray-600 ">carne</p>
+                  <h3 className=" mt-1">lorem</h3>
+                  <p className="  text-sm text-gray-600 ">Lorem ipsum dolor sit amet </p>
                 </section>
 
               </Link>
@@ -243,7 +243,7 @@ const MainGoogle = () => {
                 />
                 <h3 className=" ">
 
-                  enquetes a fazenda 16
+                 Lorem ipsum dolor sit amet 
                 </h3></Link>
             </li>
             
@@ -270,7 +270,7 @@ const MainGoogle = () => {
                   alt="arrow"
                   className="h-5 mt-1"
                 />
-                <h3 className="">creatina soldiers policia civil</h3></Link>
+                <h3 className="">Lorem ipsum dolor sit amet </h3></Link>
 
             </li>
             
@@ -283,7 +283,7 @@ const MainGoogle = () => {
                   alt="arrow"
                   className="h-5 mt-1"
                 />
-                <h3 className="">newjeans contrato</h3></Link>
+                <h3 className="">Lorem ipsum dolor sit amet </h3></Link>
             </li>
             
             <li className=" p-1 pl-1">
@@ -342,7 +342,7 @@ const MainGoogle = () => {
                 />
                 <h3 className=" ">
 
-                  enquetes a fazenda 16
+                  Lorem ipsum dolores ex voluptatuo quasi, culpa non quaerat.
                 </h3></Link>
             </li>
             
@@ -369,7 +369,7 @@ const MainGoogle = () => {
                   alt="arrow"
                   className="h-5 mt-1"
                 />
-                <h3 className="">creatina soldiers policia civil</h3></Link>
+                <h3 className="">Lorem ipsum dolor sit amet, consectetur adipisicin</h3></Link>
 
             </li>
             
@@ -403,7 +403,7 @@ const MainGoogle = () => {
 
             </section>
             :
-            <section className="hidden"></section>
+            <section className="hidden dark:bg-neutral-700"></section>
         }
       </main>
   )
